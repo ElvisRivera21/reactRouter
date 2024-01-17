@@ -15,6 +15,9 @@ function App() {
         <div id="navbar">
           <Link to="/blue">blue</Link>
           <Link to="/red">red</Link>
+          <Link to="/">
+            go to home
+          </Link>
         </div>
 
 
