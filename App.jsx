@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 import './App.css'
 
 function App() {
@@ -9,7 +9,12 @@ function App() {
     <>
       <div id="container">
         
-        <div id="navbar">{/* navigation here */}</div>
+        <div id="navbar">
+          <Link to="/blue">blue</Link>
+          <Link to="/red">red</Link>
+        </div>
+
+
         <div id="main-section">
 
           <Routes>
